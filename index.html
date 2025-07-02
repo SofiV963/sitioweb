@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Travelar</title>
+    <link rel="normalize" href="normalize viajes.css">
+    <link rel="stylesheet" href="stylesheets viajes.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<nav>
+    <a href="index.html">
+    <img src="imgs/logo.png" alt="Logo" class="logo">
+    </a>
+    <ul>
+        </li>
+        <li> 
+            <a href="index.html">INICIO</a>
+        </li>
+        <li>
+            <a href="alojamiento.html">ALOJAMIENTOS</a>
+        </li>
+        <li>
+            <a href="actividades.html">ACTIVIDADES</a>
+        </li>
+        <li>
+            <a href="contacto.html">CONTACTO</a>
+        </li>
+    </ul> 
+</nav>
+
+<div class="clearfix"></div>
+
+<header id="header">
+    <h1>BIENVENIDOS A ARGENTINA</h1>
+    <h2>LA AVENTURA TE ESPERA</h2>
+    
+    
+    <form action="#" method="get" class="search-form">
+    <label for="search">¿Cuál es tu próximo viaje?</label>
+
+    <div class="search-container" id="search">    
+    <form action="procesar_busqueda.php" method="get"> 
+            <input type="search" name="destino" placeholder="Destino..." /> 
+            <input type="search" name="salida" placeholder="Salida..." /> 
+            <input type="search" name="vuelta" placeholder="Vuelta..." /> 
+            <a href="https://www.despegar.com.ar/" class="button" target="new">Buscar</a>
+    </div>
+    </form>
+</header>
+
+
+<main class="sobre-nosotros">
+    <div class="contenido">
+        <div class="texto">
+            <h3 id="NOSOTROS">Sobre Nosotros</h3>
+            <p class="destacado">Somos una empresa de turismo con raíces locales comprometida en brindar experiencias auténticas, seguras y memorables a cada viajero.</p>
+            <p> Desde los majestuosos paisajes de la Patagonia hasta la energía vibrante de Buenos Aires, diseñamos excursiones y paquetes turísticos a medida para que puedas descubrir la diversidad natural y cultural de nuestro país.</p>
+            <p>Con años de trayectoria en el sector, trabajamos con profesionales locales, promoviendo un turismo responsable y sustentable, que valora tanto al viajero como a las comunidades que nos reciben.
+             Te invitamos a descubrir Argentina de la mano de quienes mejor la conocen.</p>
+        </div>
+        <div class="imagen">
+            <img src="imgs/sobre-nosotros.jpg" alt="imagen sobre nosotros">
+        </div>
+    </div>
+</main>
+
+<section id="novedades">
+ <div id="NOVEDADES"></div>
+<h3>Ultimas Novedades</h3>
+
+  <div class="tarjetas-novedades">
+        <div class="novedad-tarjeta">
+        <img src="imgs/cataratas-del-iguazu.jpg" alt="Paisaje">
+        <h2>Cataratas del Iguazu</h2>
+        <p>Un espectáculo natural que emociona.
+        Sentí la fuerza de la naturaleza en su máxima expresión.</p>
+         <a class="ver-mas" href="alojamiento.html">Ver más</a>
+        </div>
+
+        <div class="novedad-tarjeta">
+        <img src="imgs/jujuy.jpg" alt="Paisaje">
+        <h2>Cerro de los 7 colores</h2>
+        <p> Un paisaje pintado por el tiempo
+         que despliega su paleta natural frente a los ojos del viajero.
+        </p>
+         <a class="ver-mas" href="alojamiento.html">Ver más</a>
+        </div>
+
+        <div class="novedad-tarjeta">
+            <img src="imgs/glaciar.jpg" alt="Paisaje">
+            <h2>Glaciar Perito Moreno</h2>
+            <p>Donde el hielo cobra vida.
+             Frente al Glaciar, el silencio se quiebra con el estruendo de un desprendimiento.</p>
+              <a class="ver-mas" href="alojamiento.html">Ver más</a>
+        </div>
+
+        <div class="novedad-tarjeta">
+            <img src="imgs/aconcagua.jpg" alt="Paisaje">
+            <h2>Aconcagua</h2>
+            <p>En la cima de América. Imponente y desafiante. El Aconcagua se alza como el techo del continente americano.</p>
+            <a class="ver-mas" href="alojamiento.html">Ver más</a>
+            </div>
+    </div>
+
+</section>
+
+<footer>
+  <div class="footer-content">
+    <h2>2025 TravelAr</h2>
+
+    <ul class="iconos-redes">
+      <li>
+        <a href="https://www.instagram.com/turismonacionar/?hl=es" target="_blank" title="Instagram">
+          <img src="imgs/instagram-icono.png" alt="instagram icono">
+        </a>
+      </li>
+      <li>
+        <a href="https://ar.pinterest.com/sollun/argentina-turismo/" target="_blank" title="Pinterest">
+          <img src="imgs/pinterest-icono.png" alt="pinterest icono">
+        </a>
+      </li>
+      <li>
+        <a href="https://youtu.be/vtBilw9Ag_Y?feature=shared" target="_blank" title="Youtube">
+          <img src="imgs/youtube-icono.png" alt="youtube icono">
+        </a>
+      </li>
+    </ul>
+  </div>
+</footer>
+
+</body>
+</html>

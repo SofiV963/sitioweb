@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto - Travelar</title>
+    <link rel="stylesheet" href="stylesheets viajes.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<nav>
+    <a href="index.html">
+    <img src="imgs/logo.png" alt="Logo" class="logo">
+    </a>
+    <ul>
+        </li>
+        <li> 
+            <a id="INICIO" href="index.html">INICIO</a>
+        </li>
+        <li>
+            <a href="alojamiento.html">ALOJAMIENTOS</a>
+        </li>
+        <li>
+            <a href="actividades.html">ACTIVIDADES</a>
+        </li>
+        <li>
+            <a href="contacto.html">CONTACTO</a>
+        </li>
+    </ul> 
+</nav>
+
+   <section class="formulario-section">
+    <div class="formulario-contenedor">
+        <h3 id="CONTACTO">CONTACTANOS</h3>
+        <form action="/procesar_formulario" method="post">
+        <label for="Ingresa tu nombre y apellido">Nombre y apellido:</label>
+        <input type="text" id="nombre y apellido" name="nombre y apellido" placeholder="Ingresá tu nombre y apellido" required>
+
+        <label for="correo electronico">Correo electrónico:</label>
+        <input type="email" id="correo electrónico" name="correo electrónico" placeholder="Ingresa tu correo electronico">
+
+        <label for="Escribe tu consulta">Escribe tu consulta:</label>
+        <input type="consulta" id="Escribe tu consulta" name="Escribe tu consulta"  placeholder="Escribí tu mensaje aquí..." required><br>
+
+        <input type="submit" value="Enviar"> 
+        <input type="submit" value="Borrar">
+        </form>
+    </div>
+</section>
+</body>
+</html>
